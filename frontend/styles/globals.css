@@ -21,6 +21,44 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: 	#36393e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh; 
+    text-shadow: 3px 2px black;
+    
+  }
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  position: absolute;
+  top: 10rem;
+  left: 12rem;
+  height: 3rem;
+  background: #070707;
+  color: white;
+  text-shadow: 3px 2px black;
+  border-radius: 20rem;
+}
+
+
+@media (min-width: 768px) {
+  nav {
+    display: flex;
+    top: 10rem;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    top: 15%;
+    left: 40%;
+    background: #070707;
+    color: white;
+    text-shadow: 0.25px 0.25px wheat;
+
   }
 }
